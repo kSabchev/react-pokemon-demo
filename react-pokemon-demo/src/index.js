@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function App() {
+
+  return (
+    <div className="app-wrapper">
+      <h1> hello </h1>
+    </div>
+  )
+}
+
+ReactDOM.render(<App />, document.getElementById('root'))
